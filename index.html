@@ -14,19 +14,18 @@
       place-items: center;
       padding: 2rem;
       color: #f8fafc;
-      background:
-        linear-gradient(rgba(5, 11, 21, .43), rgba(5, 11, 21, .43)),
-        url("exec-09b9b85c-488c-4c9b-9458-293616d8911f.png") center / cover no-repeat fixed;
       background-color: #101827;
+      background-image: linear-gradient(rgba(5, 11, 21, .38), rgba(5, 11, 21, .38)), url("/hello-world-web/exec-09b9b85c-488c-4c9b-9458-293616d8911f.png");
+      background-size: cover, cover;
+      background-position: center, center;
+      background-repeat: no-repeat, no-repeat;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
     main { text-align: center; text-shadow: 0 2px 24px rgba(0, 0, 0, .75); }
     p { margin: 0 0 1rem; color: #d4e0f0; font-size: .8rem; font-weight: 700; letter-spacing: .22em; text-transform: uppercase; }
     h1 { margin: 0; font-size: clamp(3rem, 12vw, 7rem); letter-spacing: -.065em; line-height: 1; }
     h1 span { color: #8ec5ff; }
-    @media (max-width: 600px) {
-      body { background-attachment: scroll; background-position: 30% center; }
-    }
+    @media (max-width: 600px) { body { background-position: 30% center, 30% center; } }
   </style>
 </head>
 <body>
